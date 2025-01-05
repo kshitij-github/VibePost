@@ -23,7 +23,7 @@ public class VibePost {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
-    @Lob
+    
     private String description;
     private String imageUrl;
     private String videoUrl;
